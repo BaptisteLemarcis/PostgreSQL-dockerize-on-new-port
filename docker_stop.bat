@@ -1,0 +1,1 @@
+powershell -Command "docker stop $(docker ps -q --filter name='pg_test')"
